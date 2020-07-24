@@ -1,13 +1,13 @@
-package Prototype;
+package CreationalPatterns.Prototype;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * <b>Prototype</b> should have
+ * <b>CreationalPatterns.Prototype</b> should have
  * <ul>
  *     <li>CONTRACT {@link IPrototype}</li>
- *     <li>REGISTRY {@link PrototypeModule#prototypes}</li>
+ *     <li>REGISTRY {@link PrototypeModule}prototypes</li>
  *     <li>WAY FOR POPULATE REGISTRY {@link PrototypeModule#addPrototype(IPrototype)}</li>
  *     <li>VIRTUAL CONSTRUCTOR {@link PrototypeModule#createPrototype(String)}</li>
  *     <li>CLASSES USING CONTRACT {@link AuthWS} {@link AuthBD}</li>
@@ -15,7 +15,7 @@ import java.util.List;
  * </ul>
  *
  * For executing this class needs params
- * java Prototype.StartClass WebServices,DataBase
+ * java CreationalPatterns.Prototype.StartClass WebServices,DataBase
  */
 public class StartClass {
 
@@ -45,8 +45,8 @@ class PrototypeModule {
     // "registry" of prototypical objs
     private static final List<IPrototype> prototypes = new ArrayList<>();
 
-    // Adds a feature to the Prototype attribute of the PrototypesModule class
-    // obj  The feature to be added to the Prototype attribute
+    // Adds a feature to the CreationalPatterns.Prototype attribute of the PrototypesModule class
+    // obj  The feature to be added to the CreationalPatterns.Prototype attribute
     public static void addPrototype(IPrototype p) {
         prototypes.add(p);
     }

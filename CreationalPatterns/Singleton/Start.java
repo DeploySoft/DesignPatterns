@@ -1,9 +1,10 @@
-package Singleton;
+package CreationalPatterns.Singleton;
+
 
 public class Start {
-    public SingletonService singletonService;
-    public SingletonService singletonService2;
-    public SingletonService singletonService3;
+    public SingletonObject singletonService;
+    public SingletonObject singletonService2;
+    public SingletonObject singletonService3;
 
     public Start() {
     }
@@ -17,7 +18,7 @@ public class Start {
         singletonService = SingletonService.getInstance();
         singletonService2 = SingletonService.getInstance();
         //New object on memory
-        singletonService3 = new SingletonService();
+        singletonService3 = new SingletonObject();
         //It Will be true
         System.out.println(singletonService == singletonService2);
         //it will be false

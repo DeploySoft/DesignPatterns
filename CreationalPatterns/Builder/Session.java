@@ -1,4 +1,4 @@
-package Builder;
+package CreationalPatterns.Builder;
 
 public class Session {
 

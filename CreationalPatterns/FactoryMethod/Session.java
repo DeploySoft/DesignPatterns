@@ -1,6 +1,4 @@
-package Prototype;
-
-import FactoryMethod.TypeAuth;
+package CreationalPatterns.FactoryMethod;
 
 public class Session {
     private Long id;

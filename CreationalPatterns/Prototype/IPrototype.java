@@ -1,4 +1,4 @@
-package Prototype;
+package CreationalPatterns.Prototype;
 
 /**
  * <b>CONTRACT</b>

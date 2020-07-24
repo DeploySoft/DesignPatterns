@@ -1,4 +1,4 @@
-package FactoryMethod;
+package CreationalPatterns.FactoryMethod;
 
 
 public class AuthWS implements IFactoryMethod {

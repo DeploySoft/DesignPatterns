@@ -1,4 +1,4 @@
-package FactoryMethod;
+package CreationalPatterns.Prototype;
 
 public class Session {
     private Long id;

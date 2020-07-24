@@ -1,4 +1,4 @@
-package Prototype;
+package CreationalPatterns.FactoryMethod;
 
 public enum TypeAuth {
     DB("DataBase"), WS("WebServices");

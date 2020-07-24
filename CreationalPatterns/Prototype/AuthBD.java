@@ -1,4 +1,4 @@
-package Prototype;
+package CreationalPatterns.Prototype;
 
 public class AuthBD implements IPrototype {
     private final TypeAuth typeAuth = TypeAuth.DB;

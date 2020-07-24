@@ -1,5 +1,5 @@
-package Prototype;
-
+package CreationalPatterns.Prototype;
+@SuppressWarnings("unchecked")
 public class AuthWS implements IPrototype {
     private final TypeAuth typeAuth = TypeAuth.WS;
 

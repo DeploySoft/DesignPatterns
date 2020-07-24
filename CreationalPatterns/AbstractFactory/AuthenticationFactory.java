@@ -1,12 +1,12 @@
-package AbstractFactory;
+package CreationalPatterns.AbstractFactory;
 
 abstract class AuthenticationFactory {
     /**
      * @param typeAuth needless
-     * @return
+     * @return {@link AuthenticationFactory}
      */
     static AuthenticationFactory getFactory(TypeAuth typeAuth) {
-        AuthenticationFactory authenticationFactory = null;
+        AuthenticationFactory authenticationFactory;
         switch (typeAuth) {
             case DB:
                 authenticationFactory = new AuthDB();

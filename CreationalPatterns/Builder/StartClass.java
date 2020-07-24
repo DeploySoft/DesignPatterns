@@ -1,5 +1,4 @@
-package Builder;
-
+package CreationalPatterns.Builder;
 
 public class StartClass {
 
@@ -7,7 +6,7 @@ public class StartClass {
         //Creation for default constructor
         Long id = 1L;
         String user = "user";
-        Session session = null;
+        Session session;
 
         //Creation for custom constructor
         session = new Session(id, user);
@@ -18,7 +17,7 @@ public class StartClass {
 
         //Creation for builder
         Session sessionBuilder;
-        sessionBuilder = Session. builder()
+        sessionBuilder = Session.builder()
                 .setId(1L)
                 .setUser("user")
                 .build();
