@@ -7,8 +7,8 @@ public abstract class ObjectPool<T> {
     private long expirationTime;
     private Hashtable<T, Long> locked, unlocked;
 
-    public ObjectPool() {
-        expirationTime = 30000L;
+    public ObjectPool(long expirationTime) {
+        this.expirationTime = expirationTime;
         locked = new Hashtable<T, Long>();
         unlocked = new Hashtable<T, Long>();
     }
