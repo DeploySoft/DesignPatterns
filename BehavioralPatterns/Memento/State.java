@@ -3,10 +3,10 @@ package BehavioralPatterns.Memento;
 /**
  * This is Memento
  */
-public class States {
+public class State {
     private final String value;
 
-    public States(String value) {
+    public State(String value) {
         this.value = value;
     }
 
