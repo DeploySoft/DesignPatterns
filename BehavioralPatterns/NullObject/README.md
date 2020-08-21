@@ -1,0 +1,1 @@
+![img](https://sourcemaking.com/files/v2/content/patterns/Null_Object2.png)
