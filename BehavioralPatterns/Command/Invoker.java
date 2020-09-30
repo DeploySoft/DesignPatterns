@@ -1,4 +1,4 @@
-package CreationalPatterns.Command;
+package BehavioralPatterns.Command;
 
 import java.util.ArrayList;
 import java.util.List;

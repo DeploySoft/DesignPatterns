@@ -1,4 +1,4 @@
-package CreationalPatterns.Command;
+package BehavioralPatterns.Command;
 
 /**
  * @author : J. Andres Boyaca (janbs)
