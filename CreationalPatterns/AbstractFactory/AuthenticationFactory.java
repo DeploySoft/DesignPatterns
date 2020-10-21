@@ -1,6 +1,6 @@
 package CreationalPatterns.AbstractFactory;
 
-abstract class AuthenticationFactory {
+public abstract class AuthenticationFactory {
     /**
      * @param typeAuth needless
      * @return {@link AuthenticationFactory}
@@ -23,6 +23,8 @@ abstract class AuthenticationFactory {
     public abstract Session creteSession(String user);
 
     public abstract Boolean destroySession();
+
+    public abstract String fromWhere();
 
 
 }

@@ -12,4 +12,9 @@ public class AuthDB extends AuthenticationFactory {
     public Boolean destroySession() {
         return true;
     }
+
+    @Override
+    public String fromWhere() {
+        return AuthDB.class.getCanonicalName();
+    }
 }

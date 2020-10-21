@@ -13,6 +13,11 @@ public class AuthWS extends AuthenticationFactory {
         return true;
     }
 
+    @Override
+    public String fromWhere() {
+        return AuthWS.class.getCanonicalName();
+    }
+
     public Boolean connect() {
         return true;
     }
